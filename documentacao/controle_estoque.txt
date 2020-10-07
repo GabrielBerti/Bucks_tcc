@@ -1,0 +1,25 @@
+N = nao controla
+S = controla
+
+N => nada
+
+S = controla => sistema vai atualizar o valor
+   saldo na item_estoque + novo valor da compra ( qt = 2 vl_unit 10,00 )
+   por ex:
+   
+   ENTRADA:
+        TINHAMOS NO ESTOQUE:
+        QTD: 2 VL_UNIT: 5 TOTAL 10
+        AO EFETUAR A ENTRADA DE:
+        QTD: 3 VL_UNIT: 7 TOTAL 21
+        O ESTOQUE FICARÁ:
+        QTD: 5 VL_UNIT: 6.2 TOTAL 31
+
+        POIS A QTD. E O TOTAL FORAM SOMADOS, FAZENDO O NOVO TOTAL / QTD OBTEREMOS O VL_UNIT
+
+   SAÍDA:
+        TINHAMOS NO ESTOQUE:
+        QTD: 5 VL_UNIT: 6 TOTAL 30
+        AO EFETUAR A SAÍDA DE 3 ITENS O ESTOQUE FICARÁ:
+        QTD: 2 VL_UNIT: 6 TOTAL 12
+                

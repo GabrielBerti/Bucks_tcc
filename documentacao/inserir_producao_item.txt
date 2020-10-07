@@ -1,0 +1,11 @@
+PARA INSERIR NA PRODUÇÃO ITEM:
+
+*QUANDO FOR ENTRADA:
+	na entrada, o user deve informar apenas a QT e o Lote (caso tenha), e vl_unit você vai buscar no item_estoque
+
+*QUANDO FOR ENTRADA E FOR UM ITEM INDIRETO:
+	o user deve informar a qtd. e o vl. unit, pois como é um item que não é de estoque, o mesmo não tem vl. unit. e terá
+    que ser informado pelo user
+
+*QUANDO FOR SAIDA
+	na saida será informado apenas a qtd., e o vl. unit. será a soma de todas as entradas
